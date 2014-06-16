@@ -1,0 +1,17 @@
+wp/wp-config.php
+logs/
+wp/wp-content/upgrade/
+wp/wp-content/uploads/
+wp/wp-content/debug.log
+
+# W3 Total Cache
+wp/wp-content/cache/*
+!wp/wp-content/cache/index.html
+wp/wp-content/w3tc-config/*
+!wp/wp-content/w3tc-config/index.html
+
+search-replace/
+
+##### Global ignores #####
+.DS_Store
+.svn
