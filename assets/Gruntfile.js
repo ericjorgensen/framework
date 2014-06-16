@@ -43,11 +43,11 @@ module.exports = function(grunt) {
     },
     version: {
       options: {
-        file: '../wp/wp-content/themes/ep/lib/scripts.php',
+        file: '../wp/wp-content/themes/ep/lib/enqueue.php',
         css: 'css/styles.css',
         js: 'js/scripts.min.js',
-        jsHandle: 'is_scripts',
-        cssHandle: 'is_main'
+        jsHandle: 'ep_scripts',
+        cssHandle: 'ep_main'
       }
     },
     watch: {
