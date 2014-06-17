@@ -1,3 +1,4 @@
+node_modules
 wp/wp-config.php
 logs/
 wp/wp-content/upgrade/
